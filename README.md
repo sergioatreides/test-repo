@@ -80,7 +80,7 @@ Aquí veremos información como las descripciones de los `commit` (que añadimos
 
 Desde nuestro repositorio en _Github_ podremos ver todos los cambios que han sufrido nuestros archivos, así como el autor de los mismos y la fecha en la que se realizaron.
 
-## Un log especial
+### Un log especial
 
 Para que se muestren los resultado de un `log` de manera mucho más visual, bien ordenados y coloreados para identificar todos los datos bien, creamos un alias del siguiente comando en la consola
 
