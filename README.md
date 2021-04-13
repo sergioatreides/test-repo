@@ -1,8 +1,11 @@
-# Example repository
+# Creando un repositorio
+
 Este es el primer ejercicio del curso de Udemy _Git & Github Crash Course: Create a Repository From Scratch!_ del Kalob Taulien
 
 .md -> markdown
 [Markdowns](https://guides.github.com/features/mastering-markdown/)
+
+## Staging
 
 Cada modificación que se quiera "enviar" a Github debemos **hacer un _staging_**. En la consola, y desde dentro del directorio, se realiza con:
 
@@ -13,6 +16,8 @@ También se puede hacer desde el _source control_ (menú lateral izquierdo).
 Con el comando `git status` podremos comprobar en qué estado se encuentran los archivos del directorio respecto al repositorio en Github. Si aparece en verde los archivos estarán en estado `staged`; si aparece en rojo se nos mostrará qué le sucede a cada archivo.
 
 Al haber realizado el _staging_ del archivo, también nos aparecerá en el _source control_ de VSCode como _staged_ automáticamente.
+
+## Commit
 
 Pero estos cambios no son definitivos en el repositorio. Para ello hay que **hacer un _commit_**. Para ello escribiremos en la consola:
 
@@ -25,3 +30,11 @@ En este punto habremos hecho nuestro primer `commit`.
 Aparecerá un feedback con los archivos que han cambiado respecto a la versión que se encontraba en el repositorio y cuántas inserciones se han realizado en él.
 
 Con `git status` podremos ver que ya no aparece ningún archivo (no queda ningún archivo `staged` pendiente de `commit`).
+
+## Push
+
+El último paso es enviar (`push`) el archivo a _Github_. Para ello usaremos el siguiente comando:
+
+`git push origin master`
+
+El `origin` es el _branch_ (que veremos más adelante) y el `master` es el _branch_ maestro, el que podemos ver en la raíz de nuestro repositorio.
