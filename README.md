@@ -32,6 +32,10 @@ Con el comando `git status` podremos comprobar en qué estado se encuentran los 
 
 Al haber realizado el _staging_ del archivo, también nos aparecerá en el _source control_ de VSCode como _staged_ automáticamente.
 
+Para hacer un _staging_ de todos los archivos pendientes, basta con ejecutar
+
+`git add .`
+
 ### Commit
 
 Pero estos cambios no son definitivos en el repositorio. Para ello hay que **hacer un _commit_**. Para ello escribiremos en la consola:
